@@ -4,3 +4,13 @@ sections/*.txt
 
 # System files
 .DS_Store 
+
+# PHB content (copyright)
+sections/*.pdf
+sections/*.txt
+
+# Tool directories
+.specstory/
+
+# OS files
+.DS_Store 
