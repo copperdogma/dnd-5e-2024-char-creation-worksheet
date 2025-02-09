@@ -1,5 +1,54 @@
 # To Do
 
+## Active Tasks
+
+### Immediate Priority: Worksheet Testing
+1. Manual Character Creation Test
+   - [ ] Create complete character using current worksheet
+   - [ ] Note any unclear instructions or missing fields
+   - [ ] Identify areas where space is insufficient
+   - [ ] Track time spent on each section
+   - [ ] Document any calculations that were difficult
+   - [ ] List any information that was hard to find in PHB
+
+2. Worksheet Revisions
+   - [ ] Update worksheet based on testing feedback
+   - [ ] Adjust space allocation if needed
+   - [ ] Clarify instructions where necessary
+   - [ ] Add any missing tracking elements
+
+### Document Conversion
+1. Choose Conversion Tool
+   - [ ] Test Pandoc workflow
+   - [ ] Test Quarto/R Markdown workflow
+   - [ ] Test Adobe InDesign workflow
+   - [ ] Select best approach
+
+2. Implementation
+   - [ ] Set up chosen tool and dependencies
+   - [ ] Create custom template
+   - [ ] Set up automated build process
+   - [ ] Implement form fields
+
+3. Quality Control
+   - [ ] Test print layout on multiple printers
+   - [ ] Verify form field functionality
+   - [ ] Check typography and readability
+   - [ ] Validate cross-references
+   - [ ] Run user testing
+
+4. Documentation
+   - [ ] Write conversion process guide
+   - [ ] Document template customization
+   - [ ] Create troubleshooting guide
+
+### Final Project Tasks
+- [ ] Create final worksheet/ directory with output files
+- [ ] Update spec.md with 2024 PHB specifics
+- [ ] Final README.md review
+
+## Completed Tasks (Reference)
+
 ## Phase 1: PDF Section Splitting
 Split PHB PDF into individual section PDFs, following these steps for each:
 
