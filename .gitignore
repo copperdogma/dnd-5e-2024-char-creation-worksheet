@@ -1,0 +1,6 @@
+# Source Material & Extracted Content
+*.pdf
+sections/*.txt
+
+# System files
+.DS_Store 

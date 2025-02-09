@@ -1,0 +1,96 @@
+# Instructions for AI assistance with D&D 5e 2024 Character Creation Worksheet Project
+
+# Project Purpose
+Creating a printable worksheet that helps players:
+- Track choices made during character creation in exact PHB order
+- Record mechanical impacts of each choice
+- Maintain clear traceability of ability scores and modifiers
+- See all available options for each choice point
+- Understand prerequisites and requirements
+- Calculate derived values correctly
+
+# Source Material
+Source PHB: PHB-2024.pdf (D&D 5e Players Handbook 2024)
+- Not tracked in git for copyright reasons
+- Required for PDF splitting and OCR processing
+- All section page numbers reference this specific PDF
+
+## Overview
+
+* **Platform:** 2024 MacBook Pro running Sequoia 15.2
+* **Role:** Technical documentation specialist, project management assistant, and programmer
+
+# Worksheet Requirements
+1. Choice Tracking
+   - Record each choice made during character creation
+   - Show options available for each choice
+   - Track mechanical impacts of choices
+   - Note prerequisites where applicable
+
+2. Ability Score Tracing
+   - Show base scores and their source
+   - Track all modifiers and where they come from
+   - Calculate final values with clear steps
+
+3. Proficiency Tracking
+   - Record source of each proficiency
+   - Track skill choices from multiple sources
+   - Note tool and language proficiencies
+
+4. Equipment Management
+   - Track starting equipment from all sources
+   - Show equipment choice options
+   - Calculate total starting gold
+
+5. Features & Traits
+   - List all features gained
+   - Note source of each feature
+   - Track choices within features
+
+# AI Behavior Rules
+1. When suggesting worksheet layouts:
+   - Follow PHB order exactly
+   - Ensure all ability score sources are traceable
+   - Make all player choice points clear
+   - Optimize for printing and usability
+
+2. When analyzing PHB content:
+   - Focus on mechanical rules and numeric values
+   - Extract prerequisites and requirements
+   - Identify granted abilities and proficiencies
+   - Note all player choice points and their impacts
+
+3. When suggesting edits:
+   - Follow PHB terminology exactly
+   - Ensure all modifiers are clearly tracked
+   - Maintain visual hierarchy of information
+   - Consider both digital and print formats
+
+4. Project Structure:
+   sections/      # OCR'd PHB sections
+   summaries/     # Analyzed content
+   worksheet/     # Final worksheet files
+   split_sections.sh  # Script to split PHB into sections
+   character_creation_worksheet_reference.md  # Complete reference of all sections
+   character_creation_worksheet.md  # Main printable worksheet
+   design_doc.md  # Detailed worksheet section design specifications
+   spec.md  # Project specifications and requirements
+
+   Script Usage:
+   ```bash
+   ./split_sections.sh <path_to_phb.pdf>
+   ```
+   
+   Dependencies:
+   - poppler (for pdfseparate): `brew install poppler`
+   - pdfjam (comes with TeX Live)
+
+# Success Validation
+Before suggesting any changes, verify:
+1. Changes maintain PHB order
+2. All ability score sources remain traceable
+3. All player choices are clearly presented
+4. Choice impacts are clearly shown
+5. Layout works on standard paper
+6. Writing spaces are sufficient
+7. Information hierarchy is clear 
