@@ -126,7 +126,7 @@ Calculate after all choices made:
 - Background selection & benefits
 - Species selection & traits
 - Ability score generation method
-- Equipment choices
+- Equipment choices (PHB p36: "Your background and class both provide starting equipment.")
 - Feat selection
 - Language choices
 - Skill choices
@@ -144,7 +144,7 @@ For each ability:
 - Skill proficiencies (with source)
 - Tool proficiencies
 - Armor & weapon proficiencies
-- Starting equipment
+- Starting equipment (received from both class and background, PHB p36)
 - Languages known
 
 ### 4. Features & Powers

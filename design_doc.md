@@ -23,7 +23,30 @@ Replace the PHB's character creation chapter with a guided process that tracks c
 - Bullet-point format
 - Estimated space: 1/3 page
 
-## Section 1: Character Concept
+## Document Structure
+The worksheet is divided into two distinct but complementary parts on the same document:
+
+### Part A: Choice Sequence
+**Purpose**: Guide players through decisions in exact PHB order
+**Key Principles**:
+- Follow PHB sequence precisely
+- Only record the choices themselves
+- Include checkboxes to track when impacts are recorded
+- Reference relevant PHB pages
+- Direct players to record impacts in Part B
+
+### Part B: Impact Tracking
+**Purpose**: Aggregate all mechanical effects by category
+**Key Principles**:
+- Organize by type of benefit (not by source)
+- Clear source attribution for each benefit
+- Match character sheet organization
+- Serves as ongoing reference during play
+- Easy verification of stacking rules
+
+## Part A Sections: Choice Sequence
+
+### Section A1: Character Concept
 ### Purpose
 Record basic character information and concept
 
@@ -38,27 +61,7 @@ Record basic character information and concept
 - Simple form fields
 - Estimated space: 1/4 page
 
-## Section 2: Ability Scores
-### Purpose
-Generate and record ability scores before other choices
-
-### Content
-- Choose method:
-  - [ ] Standard Array (15,14,13,12,10,8)
-  - [ ] Point Buy (27 points)
-  - [ ] 4d6 drop lowest
-- Initial scores table
-- Future Impacts box:
-  - Note minimum scores needed for classes
-  - Space for tracking bonuses from later choices
-- PHB page reference: p34-35
-
-### Layout Notes
-- Table format for scores
-- Clear boxes for tracking modifiers
-- Estimated space: 1/2 page
-
-## Section 3: Class Selection
+### Section A2: Class Selection
 ### Purpose
 Choose class and record key features that affect later choices
 
@@ -72,13 +75,18 @@ Choose class and record key features that affect later choices
   - Spellcasting requirements
   - Ability score dependencies
 - PHB page reference: p48-173
+Additional Content:
+- Checkboxes for recording impacts:
+  [ ] Proficiencies recorded in Part B
+  [ ] Class features recorded in Part B
+  [ ] Spellcasting details recorded in Part B (if applicable)
 
 ### Layout Notes
 - Checklist format for proficiencies
 - Simple equipment choice boxes (A/B/C)
 - Estimated space: 1/2 page
 
-## Section 4: Background
+### Section A3: Background Selection
 ### Purpose
 Choose background and record benefits that affect other choices
 
@@ -95,13 +103,19 @@ Choose background and record benefits that affect other choices
   - Equipment eligibility
   - Feat prerequisites
 - PHB page reference: p176-184
+Additional Content:
+- Checkboxes for recording impacts:
+  [ ] Ability score increases recorded in Part B
+  [ ] Proficiencies recorded in Part B
+  [ ] Languages recorded in Part B
+  [ ] Feat recorded in Part B
 
 ### Layout Notes
 - Checkbox lists
 - Clear sections for each benefit
 - Estimated space: 1/3 page
 
-## Section 5: Species
+### Section A4: Species Selection
 ### Purpose
 Choose species and record traits
 
@@ -114,46 +128,80 @@ Choose species and record traits
   - Special ability timing
   - Level-dependent features
 - PHB page reference: p185-196
+Additional Content:
+- Checkboxes for recording impacts:
+  [ ] Traits recorded in Part B
+  [ ] Special abilities recorded in Part B
+  [ ] Spells recorded in Part B (if applicable)
 
 ### Layout Notes
 - Trait checklist
 - Space for special ability details
 - Estimated space: 1/3 page
 
-## Section 6: Final Calculations
+### Section A5: Ability Scores
 ### Purpose
-Combine all choices into final statistics
+Generate and record ability scores before other choices
 
 ### Content
-- Final ability scores and modifiers
-- Proficiency bonus
-- Armor Class
-- Initiative
-- Speed
-- Hit Points
-- Saving throws
-- Skill modifiers
-- PHB page references: various
+- Choose method:
+  - [ ] Standard Array (15,14,13,12,10,8)
+  - [ ] Point Buy (27 points)
+  - [ ] 4d6 drop lowest
+- Initial scores table
+- Future Impacts box:
+  - Note minimum scores needed for classes
+  - Space for tracking bonuses from later choices
+- PHB page reference: p34-35
+Additional Content:
+- Note to apply all modifiers from Part B
+- Checkbox for final ability score calculation
 
 ### Layout Notes
-- Clear calculation spaces
-- Checkboxes for verification
+- Table format for scores
+- Clear boxes for tracking modifiers
 - Estimated space: 1/2 page
 
-## Section 7: Transfer Instructions
-### Purpose
-Guide transfer of information to character sheet
+## Part B Sections: Impact Tracking
 
-### Content
-- Step-by-step transfer checklist
-- Verification points
-- Common mistakes to avoid
-- Note about worksheet retention
+### Section B1: Ability Score Changes
+**Purpose**: Track all ability score modifications with clear sources
+**Content**:
+- Table format showing:
+  - Base scores (note generation method)
+  - Background modifications (note which background)
+  - Species modifications (note which species)
+  - Feat modifications (note which feat)
+  - Final scores
+  - Modifiers
+**Format Example**:
 
-### Layout Notes
-- Numbered list format
-- Clear checkboxes
-- Estimated space: 1/4 page
+### Section B2: Proficiencies
+**Purpose**: Aggregate all proficiencies by type
+**Content**:
+- Skills (with source)
+- Tools (with source)
+- Weapons (with source)
+- Armor (with source)
+- Languages (with source)
+- Saving throws (with source)
+
+### Section B3: Features & Resources
+**Purpose**: List all special abilities and resource pools
+**Content**:
+- Class features
+- Species traits
+- Background features
+- Feat abilities
+- Resource tracking (uses per rest)
+
+### Section B4: Spellcasting
+**Purpose**: Compile all spellcasting abilities
+**Content**:
+- Spellcasting ability
+- Spells known/prepared
+- Spell slots
+- Special spellcasting features
 
 ## Document Conversion and Printing Strategy
 ### Purpose
@@ -199,10 +247,7 @@ Convert Markdown worksheet into a professional, print-ready format
 - Test print quality on different printers
 - Verify form field usability
 
-## General Layout Notes
-- Total estimated space: 3 pages
-- Each section clearly titled with PHB reference
-- Consistent format for Future Impacts boxes
-- Clear progression between sections
-- Adequate writing space throughout
-- Checkboxes for tracking completion 
+## Updated Space Allocation
+- Part A: 2 pages
+- Part B: 2 pages
+- Total: 4 pages (increased from 3 to accommodate clear organization) 

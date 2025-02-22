@@ -2,6 +2,47 @@
 
 ## Active Tasks
 
+## Tasks to File Below
+- Maybe use shodown to convert Markdown to HTML? https://www.npmjs.com/package/showdown
+
+### Highest Priority: Worksheet Revision Based on Testing Feedback
+1. Structural & Sequencing Issues
+   - [x] Reorder all sections to match exact PHB order
+   - [x] Move Constitution modifier/HP calculation to appropriate sequence
+   - [x] Clarify AC calculation location and formula
+   - [x] Consolidate redundant equipment sections
+
+2. Proficiency & Source Tracking
+   - [x] Create master section at bottom for aggregating proficiencies
+   - [x] Update terminology to match PHB (e.g., "Saving Throw Proficiencies")
+   - [x] Add sufficient blanks for skill choices (verify max per class)
+   - [x] Implement clear tracking system for proficiency sources
+
+3. Simplification Tasks
+   - [x] Remove unnecessary checkboxes
+   - [x] Remove carrying capacity section
+   - [x] Eliminate redundant armor/weapon listings
+   - [x] Simplify species traits recording format
+   - [x] Remove redundant notes about character sheet
+   - [x] Consolidate language tracking into single section
+
+4. Clarification Research
+   - [x] Verify starting gold rules for all classes
+   - [x] Evaluate necessity of tool type field
+   - [x] Research language acquisition from backgrounds
+   - [x] Research species lineage/ancestry choice mechanics
+   - [x] Evaluate necessity of resource pools section
+
+5. Implementation of Key Insights
+   - [x] Design master tracking sections for:
+     - [x] Skills
+     - [x] Languages
+     - [x] Stat bonuses
+     - [x] Spells
+   - [x] Create clear system for recording choices during process
+   - [x] Implement final decision section
+   - [x] Add audit checklist for verifying choices
+
 ### Immediate Priority: Worksheet Testing
 1. Manual Character Creation Test
    - [ ] Create complete character using current worksheet
@@ -244,7 +285,7 @@ Version control:
 ## Validation Checklist
 - [x] PHB alignment verified
 - [x] Page references accurate
-- [ ] Modifier traceability clear
-- [ ] Print layout optimized
+- [x] Modifier traceability clear
+- [x] Print layout optimized
 - [ ] All spec requirements met
 - [ ] Outstanding questions resolved

@@ -1,5 +1,11 @@
 # D&D 5e (2024) Character Creation Worksheet
 
+## ABANDONED!
+It just felt like more work for the player than it was worth.
+So much back and forth and writing and trying to find where you should record it, all just to record it on the character sheet at the end.
+Sure, the 2024 PHB character creation section makes it a little difficult to figure out all of the stuff you get and how to combine it, but it's not that difficult.
+
+
 A printable character creation worksheet that follows the exact order and steps from the 2024 D&D 5e Player's Handbook. This project aims to make character creation more organized and traceable by providing a structured worksheet that:
 
 - Follows the PHB's exact order for character creation
